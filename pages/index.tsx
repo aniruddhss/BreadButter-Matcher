@@ -422,15 +422,12 @@ export default function Home() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                   <div className="bg-blue-50 p-4 rounded-lg">
                     <h5 className="font-semibold text-blue-800 mb-2">Location Match</h5>
-                    <p className="text-sm text-gray-600">Geo-clustering with city/region mapping</p>
                   </div>
                   <div className="bg-blue-50 p-4 rounded-lg">
                     <h5 className="font-semibold text-blue-800 mb-2">Budget Alignment</h5>
-                    <p className="text-sm text-gray-600">Range overlap calculation with flexibility factor</p>
                   </div>
                   <div className="bg-blue-50 p-4 rounded-lg">
                     <h5 className="font-semibold text-blue-800 mb-2">Style Compatibility</h5>
-                    <p className="text-sm text-gray-600">Tag-based Jaccard similarity scoring</p>
                   </div>
                 </div>
               </div>
