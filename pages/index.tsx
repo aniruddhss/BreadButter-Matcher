@@ -324,7 +324,7 @@ export default function Home() {
               <div className="space-y-4">
                 <div className="p-4 bg-blue-50 rounded-lg">
                   <h4 className="text-lg font-semibold text-blue-800 mb-2">Language Model</h4>
-                  <p className="text-gray-600">Powered by BAAI/bge-small-en-v1.5, a state-of-the-art embedding model optimized for semantic search, generating dense vector embeddings with 384 dimensions.</p>
+                  <p className="text-gray-600">Powered by BAAI/bge-small-en-v1.5, an embedding model optimized for semantic search, generating dense vector embeddings with 384 dimensions.</p>
                 </div>
                 <div className="p-4 bg-indigo-50 rounded-lg">
                   <h4 className="text-lg font-semibold text-indigo-800 mb-2">Vector Search</h4>
@@ -369,15 +369,11 @@ export default function Home() {
                   <ul className="space-y-2 text-gray-600">
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-indigo-500 rounded-full mr-2"></span>
-                      Supabase with pgvector extension
+                      Supabase for database
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-indigo-500 rounded-full mr-2"></span>
-                      Serverless API with edge computing
-                    </li>
-                    <li className="flex items-center">
-                      <span className="w-2 h-2 bg-indigo-500 rounded-full mr-2"></span>
-                      Real-time WebSocket connections
+                      Huggingface inference APIs
                     </li>
                   </ul>
                 </div>
